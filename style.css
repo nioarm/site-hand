@@ -9,3 +9,16 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+h2 {
+	color : rgb(32,178,170);
+	font-size : 20px;
+	font-family : Arial;
+}
+
+h3 {
+	color : rgb(0, 0, 205);
+	font-size : 30px;
+	font-family : Times New Roman;
+	text-decoration : underline; gras;
+}
