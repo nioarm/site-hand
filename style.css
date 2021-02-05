@@ -12,7 +12,7 @@ h1 {
 
 h2 {
 	color : rgb(32,178,170);
-	font-size : 20px;
+	font-size : 25px;
 	font-family : Arial;
 }
 
@@ -25,7 +25,7 @@ h3 {
 
 h4 { 
 	color : rgb(27, 28, 113);
-	font-size : 30px;
+	font-size : 15px;
 	font-family : Arial;
 	text-decoration : gras; 
 }
