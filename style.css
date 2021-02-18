@@ -14,13 +14,13 @@ h1 {
 h2 {
 	color : rgb(32,178,170);
 	font-size : 25px;
-	font-family : Arial;
+	font-family : Didot;
 }
 
 h3 {
 	color : rgb(0, 0, 205);
 	font-size : 32px;
-	font-family : Times New Roman;
+	font-family : Copperplate Gothic;
 	text-decoration : underline; gras;
 }
 
@@ -45,3 +45,6 @@ table {
 td {
     border: 1px solid black;
 }
+
+
+Calisto MT
