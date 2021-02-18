@@ -3,7 +3,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background: rgb(164, 237, 225);
+  background: linear-gradient(to right,rgb(226, 246, 243),rgb( 135, 213, 200));
 }
 
 h1 { 
@@ -19,7 +19,7 @@ h2 {
 
 h3 {
 	color : rgb(0, 0, 205);
-	font-size : 32px;
+	font-size : 38px;
 	font-family : Copperplate Gothic;
 	text-decoration : underline; gras;
 }
@@ -48,3 +48,4 @@ td {
 
 
 Calisto MT
+rgb(164, 237, 225)
