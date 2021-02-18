@@ -1,11 +1,12 @@
-/* CSS files add styling rules to your content */
+/* CSS files add styling rules to your content *//* CSS files add styling rules to your content */
 
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background: rgb(164, 237, 225);
 }
 
-h1 {
+h1 { 
   font-style: italic;
   color: #373fff;
 }
@@ -29,6 +30,13 @@ h4 {
 	font-family : Arial;
 	text-decoration : gras; 
 }
+
+h5 {
+	color : rgb(57, 153, 137);
+	font-size : 15px;
+	font-family : imes New Roman;
+}
+
 
 table {
     border-collapse: collapse; 
