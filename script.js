@@ -31,7 +31,7 @@ function valider() {
   if (rep6 == "6 coupes") {resultat += 1};
   
   if (rep7 == "médaille d'argent") {resultat += 1};
-  alert("Merci pour ta participation" + nom + "! Tu as" + resultat + "bonne/s réponse/s !")
+  alert("Merci pour ta participation " + nom + " ! Tu as " + resultat + " bonne/s réponse/s !")
 	document.getElementaryById("texte").innerHTML = "Merci pour ta participation " + nom + "! Tu as" + resultat + " bonne/s réponse/s !"
 	
 	
