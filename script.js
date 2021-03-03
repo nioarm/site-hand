@@ -18,21 +18,34 @@ function valider() {
 	var resultat = 0;
 	
 	
-	if (rep1 == "au Danemark") {resultat += 1}; 
+	if (rep1 == "au Danemark") {
+    resultat += 1;
+  } else (alert('La 1ère réponse est fausse, il fallait sélectionner "au Danemark" '))
   
-	if (rep2 == "en 1928") {resultat += 1};
-        else alert('La 2ème réponse est fausse, il fallait sélectionner "en 1928" ')
-	
-	if (rep3 == "5") {resultat += 1};
-        else
-	
-	if (rep4 == "60 minutes") {resultat += 1};
-	
-	if (rep5 == "3") {resultat += 1};
+	if (rep2 == "en 1928") {
+    resultat += 1;
+  } else (alert('La 2ème réponse est fausse, il fallait sélectionner "en 1928" '))
   
-  if (rep6 == "6 coupes") {resultat += 1};
+	if (rep3 == "5") {
+    resultat += 1;
+  } else (alert('La 3ème réponse est fausse, il fallait sélectionner "5" '))
   
-  if (rep7 == "médaille d'argent") {resultat += 1};
+	if (rep4 == "60 minutes") {
+    resultat += 1;
+  } else (alert('La 4ème réponse est fausse, il fallait sélectionner "60 minutes" '))
+  
+	if (rep5 == "3") {
+    resultat += 1;
+  } else (alert('La 5ème réponse est fausse, il fallait sélectionner "3" '))
+  
+  if (rep6 == "6 coupes") {
+    resultat += 1;
+  } else (alert('La 6ème réponse est fausse, il fallait sélectionner "6 coupes" '))
+  
+  if (rep7 == "médaille d'argent") {
+    resultat += 1;
+  } else (alert('La 7ème réponse est fausse, il fallait sélectionner "médaille d argent" '))
+  
   alert("Merci pour ta participation " + nom + " ! Tu as " + resultat + " bonne/s réponse/s !")
 	document.getElementaryById("texte").innerHTML = "Merci pour ta participation " + nom + "! Tu as" + resultat + " bonne/s réponse/s !";
 	alert("ok")
