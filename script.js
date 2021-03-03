@@ -18,11 +18,13 @@ function valider() {
 	var resultat = 0;
 	
 	
-	if (rep1 == "au Danemark") {resultat += 1};
+	if (rep1 == "au Danemark") {resultat += 1}; 
   
 	if (rep2 == "en 1928") {resultat += 1};
+        else alert('La 2ème réponse est fausse, il fallait sélectionner "en 1928" ')
 	
 	if (rep3 == "5") {resultat += 1};
+        else
 	
 	if (rep4 == "60 minutes") {resultat += 1};
 	
