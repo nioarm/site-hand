@@ -50,7 +50,7 @@ function valider() {
   } else (alert('La 7ème réponse est fausse, il fallait sélectionner "médaille d argent" '));
   
   
-	document.getElementaryById("").innerHTML = "Merci pour ta participation " + nom + "! Tu as" + resultat + " bonne/s réponse/s sur 7 !";
+	document.getElementById("texte").innerHTML = "Merci pour ta participation " + nom + "! Tu as" + resultat + " bonne/s réponse/s sur 7 !";
 		
 }
 
