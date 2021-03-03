@@ -29,8 +29,8 @@
 			<input type = "radio" value = "en Angleterre" name = "pays" id = "en Angleterre"/> en Angleterre<br> 
 			<input type = "radio" value = "au Danemark" name = "pays" id = "au Danemark"/> au Danemark<br> 
 			<input type = "radio" value = "en Autriche" name = "pays" id = "en Autriche"/> en Autriche<br> 
-			<br> 
 		</form>
+    <br>
 		
     <li><h5>Quand ce sport est-il apparu pour la première fois aux J.O. ? </h5></li>
 		<form name = "q2">
@@ -39,6 +39,7 @@
 			<input type = "radio" value = "en 1932" name = "JO" id = "en 1932"/> en 1932<br> 
 			<input type = "radio" value = "en 1928" name = "JO" id = "en 1928"/> en 1928<br> 
 		</form>
+    <br>
     
     <img src="https://cdn.glitch.com/bca5a361-7935-45cb-a643-c2f0ea813641%2Fhand-tir.jpg?v=1613672286885" height="20%" width="20%" style="float:right;margin:0 10px 0 0px;">
 		
@@ -49,15 +50,17 @@
 			<input type = "radio" value = "8" name = "poste" id = "8"/> 8<br> 
 			<input type = "radio" value = "7" name = "poste" id = "7"/> 7<br> 
 		</form>
+    <br>
 		
     <li><h5>Combien de temps dure un match ? </h5></li>
     <form name = "q4">
 			<input type = "radio" value = "60 minutes" name = "durée" id = "60 minutes"/> 60 minutes<br> 
 			<input type = "radio" value = "80 minutes" name = "durée" id = "80 minutes"/> 80 minutes<br>
-    <img src="https://cdn.glitch.com/bca5a361-7935-45cb-a643-c2f0ea813641%2Fhandball-golden-league-fra-dnk_3578552.jpeg?v=1613691769661" height="20%" width="20%" style="float:right;margin:0 500px 0 0px;"> 
+    <img src="https://cdn.glitch.com/bca5a361-7935-45cb-a643-c2f0ea813641%2Fhandball-golden-league-fra-dnk_3578552.jpeg?v=1613691769661" height="20%" width="20%" style="float:right;margin:0 400px 0 0px;"> 
 			<input type = "radio" value = "50 minutes" name = "durée" id = "50 minutes"/> 50 minutes<br> 
 			<input type = "radio" value = "90 minutes" name = "durée" id = "90 minutes"/> 90 minutes<br> 
 		</form>
+    <br>
 		
 		<li><h5>Quel est le nombre de pas maximum que l'on peut faire avec le ballon sans dribbler ? </h5></li>
 		<form name = "q5">
@@ -65,17 +68,20 @@
 			<input type = "radio" value = "3" name = "pas" id = "3"/> 3<br> 
 			<input type = "radio" value = "4" name = "pas" id = "4"/> 4<br> 
 		</form>
+    <br>
     
     <li><h5>Combien de coupes du monde l'équipe de France masculine a-t-elle remportée ? </h5></li>
     <form name = "q6">
     <select name = "cmonde" >
       <optgroup label="choisis ta réponse">
+        <option value="2 coupes" id = "2 coupes">2 coupes</option>
         <option value="3 coupes" id = "3 coupes">3 coupes</option>
+        <option value="4 coupes" id = "4 coupes">4 coupes</option>
         <option value="5 coupes" id = "5 coupes">5 coupes</option>
-        <option value="6 coupes" id = "6 coupes">6 coupes</option>
       </optgroup>
     </select>
     </form>
+    <br>
 	
     <li><h5>Quelle médaille l'équipe de France féminine a-t-elle remportée aux J.O. ? </h5></li>
 		<form name = "q7">
@@ -83,15 +89,21 @@
 			<input type = "radio" value = "médaille d'argent" name = "médaille" id = "médaille d'argent"/>médaille d'argent<br> 
 			<input type = "radio" value = "médaille de bronze" name = "médaille" id = "médaille de bronze"/>médaille de bronze<br> 
 		</form>
-	  </ol>
+    <br>
     
+    <li><h5>Quelle médaille l'équipe de France féminine a-t-elle remportée aux J.O. ? </h5></li>
+		<form name = "q8">
     <input list="ville">
-    <datalist id="ville">
-      <option value="Bordeaux"/>
-      <option value="Lyon"/>
-      <option value="Marseille"/>
-      <option value="Paris"/>
-    </datalist> 
+      <datalist id="ville">
+        <option value="Bordeaux"/>
+        <option value="Lyon"/>
+        <option value="Marseille"/>
+        <option value="Paris"/>
+      </datalist> 
+    </form>
+    <br>
+    
+    </ol>
     
 	  <br>
     <center><input type="button" value="Valider les réponses" onclick = "valider()"></center>
