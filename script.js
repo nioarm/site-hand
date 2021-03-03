@@ -6,6 +6,12 @@ console.log("hi");
 
 function valider() {
 	
+  confirm("voulez vous valider vos réponses ?")
+  if (confirm('texte')){
+  }else{
+  return 
+  }
+  
 	alert("ok")
 	var nom = document.forms["nom"]["nom"].value;
 	var rep1 = document.forms["q1"]["pays"].value;
