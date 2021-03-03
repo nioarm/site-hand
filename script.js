@@ -7,7 +7,7 @@ console.log("hi");
 function valider() {
 	
 	alert("ok")
-	var nom = document.forms["quizz"].value;
+	var nom = document.forms["nom"]["nom"].value;
   alert(nom)
 	var rep1 = document.forms["q1"]["pays"].value;
 	var rep2 = document.forms["q2"]["JO"].value;
@@ -15,6 +15,7 @@ function valider() {
 	var rep4 = document.forms["q4"]["durée"].value;
 	var rep5 = document.forms["q5"]["pas"].value;
   var rep6 = document.forms["q6"]["le"].value;
+  alert(rep6)
   var rep7 = document.forms["q7"]["nom_radio"].value;
 	var resultat = 0;
 	
