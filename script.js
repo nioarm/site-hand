@@ -6,13 +6,11 @@ console.log("hi");
 
 function valider() {
 	
-  confirm("voulez vous valider vos réponses ?")
-  if (confirm('texte')){
+  if (confirm('voulez vous valider vos réponses ?')){
   }else{
   return 
   }
   
-	alert("ok")
 	var nom = document.forms["nom"]["nom"].value;
 	var rep1 = document.forms["q1"]["pays"].value;
 	var rep2 = document.forms["q2"]["JO"].value;
@@ -51,9 +49,10 @@ function valider() {
     resultat += 1;
   } else (alert('La 7ème réponse est fausse, il fallait sélectionner "médaille d argent" '));
   
-  alert("Merci pour ta participation " + nom + " ! Tu as " + resultat + " bonne/s réponse/s sur 7 !")
-  document.write("Merci pour ta participation " + nom + " ! Tu as " + resultat + " bonne/s réponse/s sur 7 !");
-	document.getElementaryById("texte").innerHTML = "Merci pour ta participation " + nom + "! Tu as" + resultat + " bonne/s réponse/s sur 7 !";
+  
+	document.getElementaryById("").innerHTML = "Merci pour ta participation " + nom + "! Tu as" + resultat + " bonne/s réponse/s sur 7 !";
 		
 }
 
+document.write("Merci pour ta participation " + nom + " ! Tu as " + resultat + " bonne/s réponse/s sur 7 !");
+alert("Merci pour ta participation " + nom + " ! Tu as " + resultat + " bonne/s réponse/s sur 7 !")
