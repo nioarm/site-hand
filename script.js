@@ -14,7 +14,7 @@ function valider() {
 	var rep4 = document.forms["q4"]["durée"].value;
 	var rep5 = document.forms["q5"]["pas"].value;
   var rep6 = document.forms["q6"]["cmonde"].value;
-  var rep7 = document.forms["q7"]["nom_radio"].value;
+  var rep7 = document.forms["q7"]["médaille"].value;
 	var resultat = 0;
 	
 	
@@ -30,7 +30,7 @@ function valider() {
   
   if (rep6 == "6 coupes") {resultat += 1};
   
-  if (rep5 == "truc") {resultat += 1};
+  if (rep7 == "médaille d'argent") {resultat += 1};
 	
 	alert(resultat);
 	document.getElementaryById("texte").innerHTML =  "Merci pour ta participation" + nom + "! Tu as" + resultat + "bonne/s réponse/s !";
