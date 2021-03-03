@@ -32,9 +32,8 @@ function valider() {
   
   if (rep7 == "médaille d'argent") {resultat += 1};
 	
-	alert(resultat);
 	document.getElementaryById("texte").innerHTML =  "Merci pour ta participation" + nom + "! Tu as" + resultat + "bonne/s réponse/s !";
-	
+	alert("Merci pour ta participation" + nom + "! Tu as" + resultat + "bonne/s réponse/s !")
 	
 }
 
