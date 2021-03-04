@@ -19,6 +19,8 @@ function valider() {
 	var rep5 = document.forms["q5"]["pas"].value;
   var rep6 = document.forms["q6"]["cmonde"].value;
   var rep7 = document.forms["q7"]["médaille"].value;
+  var rep8 = document.forms["q8"]["pays"].value;
+  alert(rep8)
 	var resultat = 0;
 	
 	if (rep1 == "au Danemark") {
@@ -49,6 +51,9 @@ function valider() {
     resultat += 1;
   } else (alert('La 7ème réponse est fausse, il fallait sélectionner "médaille d argent" '));
   
+  if (rep8 == "en Egypte") {
+    resultat += 1;
+  } else (alert('La 8ème réponse est fausse, le dernier championnat du monde masculin s est déroulé en Egypte.'));
   
 	document.getElementById("texte").innerHTML = "Merci pour ta participation " + nom + "! Tu as " + resultat + " bonne/s réponse/s sur 7 !";
 		
