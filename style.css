@@ -38,6 +38,12 @@ h5 {
 	font-family : imes New Roman;
 }
 
+h6 {
+	color : rgb(57, 153, 137);
+	font-size : 20px;
+	font-family : imes New Roman;
+}
+
 
 table {
     border-collapse: collapse; 

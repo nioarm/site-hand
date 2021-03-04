@@ -54,6 +54,6 @@ function valider() {
     resultat += 1;
   } else (alert('La 8ème réponse est fausse, le dernier championnat du monde masculin s est déroulé en Egypte.'));
   
-	document.getElementById("texte").innerHTML = "Merci de votre participation " + nom + "! Vous avez " + resultat + " bonne/s réponse/s sur 7 !";
+	document.getElementById("texte").innerHTML = "Merci de votre participation " + nom + " ! Vous avez " + resultat + " bonne/s réponse/s sur 7 !";
 		
 }
